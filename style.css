@@ -275,10 +275,36 @@ p {
 }
 
 .navbar-brand{
- transition: 1s;
+ transition: all 1s ease-in-out;
 }
 .navbar-brand:hover{
  color: var(--primary-color);
  text-decoration: underline;
  transform: translateX(10px) scale(1.2);
+}
+
+.img{
+  width: 140px;
+  height: 140px;
+  
+  border-radius: 50%;
+}
+.img:hover{
+  transform: translateX(10px) scale(1.2);
+  background-color: white;
+  border: 1px solid black;
+}
+.card-text-p{
+  font-size: 25px;
+}
+
+.card-group{
+  gap: 20px;
+}
+
+.card{
+  border-radius: 50px
+}
+h2{
+  color: var(--primary-color);
 }
