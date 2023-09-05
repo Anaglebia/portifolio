@@ -146,30 +146,30 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <div class="md-form my-3">
-              <label data-error="wrong" data-success="right" for="form1" style="color:white;">Nome</label>
-              <input type="text" id="form1" class="form-control validate">
-            </div>
-            <div class="md-form my-3">
-              <label data-error="wrong" data-success="right" for="form2" style="color:white;">Telefone</label>
-              <input type="phone" id="form2" class="form-control validate">
-            </div>
-    
-            <div class="md-form my-3">
-              <input type="email" id="form3" class="form-control validate">
-              <label data-error="wrong" data-success="right" for="form3" style="color:white;">Email</label>
-            </div>
-
-            <div class="form-floating my-3">
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-              <label for="floatingTextarea2" style="color:white;">Menssagem</label>
-            </div>
+            <form target="_blank" action="https://formsubmit.co/bia22.sp@hotmail.com" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" name="name" class="form-control" placeholder="Nome" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Email" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Menssagem" class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-secondary">Enviar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                
+              </div>
+              
+            </form>
             
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-            <button type="button" class="btn btn-secondary">Enviar</button>
-          </div>
+          
         </div>
       </div>
     </div>
