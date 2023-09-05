@@ -1,8 +1,19 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
+
+
+/* @include color-mode(dark) {
+  --dark:#101010;
+}
+@include color-mode(ligth) {
+  --light:#ffff;
+} */
+
 :root{
-  --primary-color: #c999af;
-  --secondary-color:#fdcae1
+  --primary-color: #101010;
+  --bg-body-secondary:# A9A9A9
+  --light:#ffff;
+  
 }
 
 body {
@@ -12,6 +23,9 @@ body {
   color: #EEEEEE;
   text-align: center;
   font-family: "Lato", sans-serif;
+  @include color-mode(dark) {
+    --dark:#101010;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -308,3 +322,64 @@ p {
 h2{
   color: var(--primary-color);
 }
+
+/* Midea Social */
+
+a.btn-social,
+.btn-social
+{
+    border-radius: 50%;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 60px;
+    line-height: 54px;
+    margin: 8px 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s;
+    webkit-transition: background-color .3s;
+    width: 60px;
+}
+
+.btn-social:hover,.btn-social:focus
+{
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+
+.btn-linkedin
+{
+    background-color: #1769ff;
+}
+.btn-linkedin:hover
+{
+    background-color: #4a8aff;
+}
+.btn-github
+{
+    background-color: #205081;
+}
+.btn-github:hover
+{
+    background-color: #2a69aa;
+}
+.btn-instagram
+{
+    background-color: #76daff;
+}
+.btn-instagram:hover
+{
+    background-color: #a9e8ff;
+}
+.btn-discord
+{
+    background-color: #4e6252;
+}
+.btn-discord:hover
+{
+    background-color: #657e6a;
+}
+
+   
