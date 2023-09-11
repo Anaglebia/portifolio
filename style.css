@@ -7,6 +7,13 @@
   --light:#ffff;
   
 }
+.link{
+  text-decoration: none;
+  color: var(--light);
+}
+#barra{
+  overflow: hidden;
+}
 
 body {
   padding: 0;
@@ -17,6 +24,7 @@ body {
   font-family: "Lato", sans-serif;
   @include color-mode(dark) {
     --dark:#101010;
+    overflow: hidden;
   }
 }
 
@@ -309,7 +317,8 @@ p {
 }
 
 .card{
-  border-radius: 50px
+  border-radius: 50px;
+  
 }
 h2{
   color: var(--primary-color);
