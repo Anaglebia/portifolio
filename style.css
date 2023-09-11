@@ -1,14 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 
-
-/* @include color-mode(dark) {
-  --dark:#101010;
-}
-@include color-mode(ligth) {
-  --light:#ffff;
-} */
-
 :root{
   --primary-color: #101010;
   --bg-body-secondary:# A9A9A9
