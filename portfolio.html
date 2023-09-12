@@ -30,8 +30,20 @@
    <div class="container">
     <header class="border-bottom lh-1 py-3">
     </header>
-    <div class="nav-scroller py-1 mb-4 border-bottom">
-      <nav class="nav nav-underline justify-content-between">
+    <div class="nav-scroller py-1 mb-4 border-bottom"> 
+
+
+      
+      <nav class="navbar navbar-dark bg-dark d-md-none ">
+        <div class="container-fluid justify-content-end">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile"  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+
+<div class="d-none d-md-block">
+      <nav class="nav nav-underline justify-content-between "> 
         <a class="nav-item nav-link link-body-emphasis active" href="index.html">Inicio</a>
         <a class="nav-item nav-link link-body-emphasis" href="#sobre">Sobre</a>
         <a class="nav-item nav-link link-body-emphasis" href="#tecnologia">Technology</a>
@@ -40,13 +52,35 @@
         <a class="nav-item nav-link link-body-emphasis"data-bs-toggle="modal" data-bs-target="#exampleModal" href="#contato">Contato</a>
       </nav>
     </div>
+    </div>
   </div>
+
+  <div class="col-12">
+      <div class="collapse" id="menuMobile"  data-bs-theme="dark">
+          <div class="nav flex-column justify-content-end">
+            <a class="nav-item nav-link link-body-emphasis active" href="index.html">Inicio</a>
+            <a class="nav-item nav-link link-body-emphasis" href="#sobre">Sobre</a>
+            <a class="nav-item nav-link link-body-emphasis" href="#tecnologia">Technology</a>
+            <a class="nav-item nav-link link-body-emphasis" href="#projetos">Projetos</a>
+            <a class="nav-item nav-link link-body-emphasis" href="#social">Midea Social</a>
+            <a class="nav-item nav-link link-body-emphasis"data-bs-toggle="modal" data-bs-target="#exampleModal" href="#contato">Contato</a> 
+          </div>
+        </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 
   <main class="container" id="sobre">
     <div class=" row p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
       <div class="col-lg-6 px-0">
         <h1 class="display-4 fst-italic">Desenvolvedor web Front - end</h1>
-        <p class="lead my-3">Profissional de tecnologia apaixonado, criativo e voltado para resultados, com especialização na
+        <p class="lead my-3">Profissional de tecnologia apaixonado, criativo e voltado para resultados, com especialização
           em desenvolvimento front-end e alguns anos de experiência em desenvolvimento web e outras tecnologia, 
           e produto digital, comunicações, marca e  conteúdo . Acredito que os dados devem
           orientar as decisões, mas com criatividade para apoiá-los, tudo com o objetivo de fazer o 
@@ -188,7 +222,7 @@
             </form>
           </section>
         </div>
-          Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+          Desenvolvido por Ana Bezerrra &copy;<script>document.write(new Date().getFullYear());</script>
       </div> 
     </footer>
       <script src="main.js"></script>
